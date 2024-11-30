@@ -1,0 +1,30 @@
+
+.ul{
+    list-style-type: none;
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+.MovieDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+}
+.movieCardOverview{
+    display: flex;
+}
+
+.movieCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-left: 20px;
+    gap: 20px;
+}
+.castTitle{
+    font-size: 24px;
+    font-weight: bold;
+   text-align: center;
+}
